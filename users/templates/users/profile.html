@@ -1,5 +1,8 @@
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <h1>{{ user.username }}</h1>
+    <h1>YOUR PROFILE</h1>
+    <br>
+    <h2><b>USERNAME</b> : <i>{{ user.username }}</i></h2>
+    <h2><b>EMAIL</b> : <i>{{ user.email }}</i></h2>
 {% endblock content %}
