@@ -1,0 +1,5 @@
+"""added library name"""
+Django==2.2.12
+pytz==2020.1
+redis==3.5.0
+freezegun==1.0.0
